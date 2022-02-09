@@ -1,0 +1,37 @@
+package com.capgemini.sfdc.day2;
+
+public class Hello2 {
+	public static void calculateTotalEmployee(int female, int male) {
+		int totalemployee= female+male;
+		System.out.println("female");
+		System.out.println(female);
+		System.out.println("male");
+		System.out.println(male);
+		System.out.println("totalemployee");
+		System.out.println(totalemployee);	
+	}
+	public static void main(String[] args) {
+	 int female, male;
+	 System.out.println("total emplyees of sfdc department:");
+	 female=1234;
+	 male=1256;
+	 calculateTotalEmployee(female,male);
+	 
+	 System.out.println("total emplyees of java department:");
+	 female=1234;
+	 male=1256;
+	 calculateTotalEmployee(female,male);
+	 
+	 System.out.println("total emplyees of .net department:");
+	 female=1234;
+	 male=1256;
+	 calculateTotalEmployee(female,male);
+	 
+	 
+	 
+	 
+	
+	
+	}
+
+}
